@@ -32,14 +32,14 @@
 ..\obj\sx1278.o: ..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h
 ..\obj\sx1278.o: ..\STM32F10x_FWLib\inc\misc.h
 ..\obj\sx1278.o: ..\SYSTEM\usart\usart.h
-..\obj\sx1278.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\sx1278.o: ..\HARDWARE\ADC\adc.h
 ..\obj\sx1278.o: ..\STM32F10x_FWLib\inc\dac.h
 ..\obj\sx1278.o: ..\STM32F10x_FWLib\inc\key.h
 ..\obj\sx1278.o: ..\STM32F10x_FWLib\inc\PVD.h
+..\obj\sx1278.o: ..\HARDWARE\SPI\spi.h
 ..\obj\sx1278.o: ..\STM32F10x_FWLib\inc\sx1278.h
-..\obj\sx1278.o: ..\USER\../HARDWARE/SPI/spi.h
 ..\obj\sx1278.o: ..\STM32F10x_FWLib\inc\flash.h
+..\obj\sx1278.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\sx1278.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 ..\obj\sx1278.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 ..\obj\sx1278.o: ..\HARDWARE\sx1278\sx1278.h

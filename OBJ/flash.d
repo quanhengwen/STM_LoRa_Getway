@@ -1,5 +1,7 @@
 ..\obj\flash.o: flash.c
-..\obj\flash.o: ..\STM32F10x_FWLib\inc\stm32f10x_flash.h
+..\obj\flash.o: head.h
+..\obj\flash.o: ..\SYSTEM\delay\delay.h
+..\obj\flash.o: ..\SYSTEM\sys\sys.h
 ..\obj\flash.o: ..\USER\stm32f10x.h
 ..\obj\flash.o: ..\CORE\core_cm3.h
 ..\obj\flash.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
@@ -29,7 +31,14 @@
 ..\obj\flash.o: ..\STM32F10x_FWLib\inc\stm32f10x_usart.h
 ..\obj\flash.o: ..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h
 ..\obj\flash.o: ..\STM32F10x_FWLib\inc\misc.h
-..\obj\flash.o: ..\STM32F10x_FWLib\inc\flash.h
-..\obj\flash.o: ..\SYSTEM\sys\sys.h
-..\obj\flash.o: ..\SYSTEM\delay\delay.h
+..\obj\flash.o: ..\SYSTEM\usart\usart.h
+..\obj\flash.o: ..\HARDWARE\ADC\adc.h
+..\obj\flash.o: ..\STM32F10x_FWLib\inc\dac.h
+..\obj\flash.o: ..\STM32F10x_FWLib\inc\key.h
+..\obj\flash.o: ..\STM32F10x_FWLib\inc\PVD.h
 ..\obj\flash.o: ..\HARDWARE\SPI\spi.h
+..\obj\flash.o: ..\STM32F10x_FWLib\inc\sx1278.h
+..\obj\flash.o: ..\STM32F10x_FWLib\inc\flash.h
+..\obj\flash.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\flash.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\obj\flash.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h

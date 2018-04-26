@@ -1,6 +1,6 @@
 Dependencies for Project 'ADC', Target 'Target 1': (DO NOT MODIFY !)
-F (.\main.c)(0x5ADED316)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I E:\LoRa\sx1278\lora_jlnuaa\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
-I (head.h)(0x5ADED316)
+F (.\main.c)(0x5AE1412F)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I C:\Users\fluency\Desktop\workspace\LoRa\STM_LoRa_Getway\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+I (head.h)(0x5AE07B88)
 I (..\SYSTEM\delay\delay.h)(0x5AD7F45F)
 I (..\SYSTEM\sys\sys.h)(0x5AD7F416)
 I (..\USER\stm32f10x.h)(0x5AD9D0A5)
@@ -31,18 +31,18 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-I (..\SYSTEM\usart\usart.h)(0x5ADD4C73)
-I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (..\SYSTEM\usart\usart.h)(0x5AE07BB6)
 I (..\HARDWARE\ADC\adc.h)(0x5AD7F5F1)
 I (..\STM32F10x_FWLib\inc\dac.h)(0x5AD9517E)
 I (..\STM32F10x_FWLib\inc\key.h)(0x5AD7F507)
 I (..\STM32F10x_FWLib\inc\PVD.h)(0x5AD7F614)
-I (..\STM32F10x_FWLib\inc\sx1278.h)(0x5ADED261)
-I (../HARDWARE/SPI/spi.h)(0x5AD7F8CB)
-I (..\STM32F10x_FWLib\inc\flash.h)(0x5A9F538F)
+I (..\HARDWARE\SPI\spi.h)(0x5ADEDF7F)
+I (..\STM32F10x_FWLib\inc\sx1278.h)(0x5ADED827)
+I (..\STM32F10x_FWLib\inc\flash.h)(0x5AE07BF9)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
 I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
 I (E:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
-F (..\HARDWARE\LED\led.c)(0x5AD7F5CA)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I E:\LoRa\sx1278\lora_jlnuaa\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\led.o --omf_browse ..\obj\led.crf --depend ..\obj\led.d)
+F (..\HARDWARE\LED\led.c)(0x5AD7F5CA)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I C:\Users\fluency\Desktop\workspace\LoRa\STM_LoRa_Getway\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\led.o --omf_browse ..\obj\led.crf --depend ..\obj\led.d)
 I (..\HARDWARE\LED\led.h)(0x5A7BEB68)
 I (..\SYSTEM\sys\sys.h)(0x5AD7F416)
 I (..\USER\stm32f10x.h)(0x5AD9D0A5)
@@ -73,7 +73,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-F (..\HARDWARE\ADC\adc.c)(0x5AD5BAB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I E:\LoRa\sx1278\lora_jlnuaa\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\adc.o --omf_browse ..\obj\adc.crf --depend ..\obj\adc.d)
+F (..\HARDWARE\ADC\adc.c)(0x5AD5BAB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I C:\Users\fluency\Desktop\workspace\LoRa\STM_LoRa_Getway\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\adc.o --omf_browse ..\obj\adc.crf --depend ..\obj\adc.d)
 I (..\HARDWARE\ADC\adc.h)(0x5AD7F5F1)
 I (..\SYSTEM\sys\sys.h)(0x5AD7F416)
 I (..\USER\stm32f10x.h)(0x5AD9D0A5)
@@ -105,7 +105,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
 I (..\SYSTEM\delay\delay.h)(0x5AD7F45F)
-F (..\HARDWARE\DAC\dac.c)(0x5AD95346)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I E:\LoRa\sx1278\lora_jlnuaa\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\dac.o --omf_browse ..\obj\dac.crf --depend ..\obj\dac.d)
+F (..\HARDWARE\DAC\dac.c)(0x5AD95346)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I C:\Users\fluency\Desktop\workspace\LoRa\STM_LoRa_Getway\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\dac.o --omf_browse ..\obj\dac.crf --depend ..\obj\dac.d)
 I (..\HARDWARE\DAC\dac.h)(0x5A7EB68A)
 I (..\SYSTEM\sys\sys.h)(0x5AD7F416)
 I (..\USER\stm32f10x.h)(0x5AD9D0A5)
@@ -136,7 +136,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-F (..\HARDWARE\KEY\key.c)(0x5AD7F507)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I E:\LoRa\sx1278\lora_jlnuaa\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\key.o --omf_browse ..\obj\key.crf --depend ..\obj\key.d)
+F (..\HARDWARE\KEY\key.c)(0x5AD7F507)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I C:\Users\fluency\Desktop\workspace\LoRa\STM_LoRa_Getway\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\key.o --omf_browse ..\obj\key.crf --depend ..\obj\key.d)
 I (..\HARDWARE\KEY\key.h)(0x532ADF68)
 I (..\SYSTEM\sys\sys.h)(0x5AD7F416)
 I (..\USER\stm32f10x.h)(0x5AD9D0A5)
@@ -168,7 +168,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
 I (..\SYSTEM\delay\delay.h)(0x5AD7F45F)
-F (.\PVD.c)(0x5AD731C4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I E:\LoRa\sx1278\lora_jlnuaa\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\pvd.o --omf_browse ..\obj\pvd.crf --depend ..\obj\pvd.d)
+F (.\PVD.c)(0x5AD731C4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I C:\Users\fluency\Desktop\workspace\LoRa\STM_LoRa_Getway\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\pvd.o --omf_browse ..\obj\pvd.crf --depend ..\obj\pvd.d)
 I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
 I (..\USER\stm32f10x.h)(0x5AD9D0A5)
 I (..\CORE\core_cm3.h)(0x4D523B58)
@@ -199,8 +199,8 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
 I (..\HARDWARE\LED\led.h)(0x5A7BEB68)
 I (..\SYSTEM\sys\sys.h)(0x5AD7F416)
-F (..\HARDWARE\SPI\spi.c)(0x5AD7F8CB)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I E:\LoRa\sx1278\lora_jlnuaa\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\spi.o --omf_browse ..\obj\spi.crf --depend ..\obj\spi.d)
-I (..\HARDWARE\SPI\spi.h)(0x5AD7F8CB)
+F (..\HARDWARE\SPI\spi.c)(0x5ADEDF93)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I C:\Users\fluency\Desktop\workspace\LoRa\STM_LoRa_Getway\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\spi.o --omf_browse ..\obj\spi.crf --depend ..\obj\spi.d)
+I (..\HARDWARE\SPI\spi.h)(0x5ADEDF7F)
 I (..\SYSTEM\sys\sys.h)(0x5AD7F416)
 I (..\USER\stm32f10x.h)(0x5AD9D0A5)
 I (..\CORE\core_cm3.h)(0x4D523B58)
@@ -230,40 +230,8 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-F (.\flash.c)(0x5AD569B7)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I E:\LoRa\sx1278\lora_jlnuaa\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\flash.o --omf_browse ..\obj\flash.crf --depend ..\obj\flash.d)
-I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
-I (..\USER\stm32f10x.h)(0x5AD9D0A5)
-I (..\CORE\core_cm3.h)(0x4D523B58)
-I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
-I (..\USER\system_stm32f10x.h)(0x4D783CAA)
-I (..\USER\stm32f10x_conf.h)(0x55B0C93D)
-I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
-I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x5A91128E)
-I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
-I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\flash.h)(0x5A9F538F)
-I (..\SYSTEM\sys\sys.h)(0x5AD7F416)
-I (..\SYSTEM\delay\delay.h)(0x5AD7F45F)
-I (..\HARDWARE\SPI\spi.h)(0x5AD7F8CB)
-F (..\SYSTEM\delay\delay.c)(0x55CC2E5D)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I E:\LoRa\sx1278\lora_jlnuaa\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+F (.\flash.c)(0x5AE07C63)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I C:\Users\fluency\Desktop\workspace\LoRa\STM_LoRa_Getway\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\flash.o --omf_browse ..\obj\flash.crf --depend ..\obj\flash.d)
+I (head.h)(0x5AE07B88)
 I (..\SYSTEM\delay\delay.h)(0x5AD7F45F)
 I (..\SYSTEM\sys\sys.h)(0x5AD7F416)
 I (..\USER\stm32f10x.h)(0x5AD9D0A5)
@@ -294,39 +262,19 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-F (..\SYSTEM\sys\sys.c)(0x55CC2E79)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I E:\LoRa\sx1278\lora_jlnuaa\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
-I (..\SYSTEM\sys\sys.h)(0x5AD7F416)
-I (..\USER\stm32f10x.h)(0x5AD9D0A5)
-I (..\CORE\core_cm3.h)(0x4D523B58)
-I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
-I (..\USER\system_stm32f10x.h)(0x4D783CAA)
-I (..\USER\stm32f10x_conf.h)(0x55B0C93D)
-I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
-I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x5A91128E)
-I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
-I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-F (..\SYSTEM\usart\usart.c)(0x5ADD9335)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I E:\LoRa\sx1278\lora_jlnuaa\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
-I (..\SYSTEM\usart\usart.h)(0x5ADD4C73)
+I (..\SYSTEM\usart\usart.h)(0x5AE07BB6)
+I (..\HARDWARE\ADC\adc.h)(0x5AD7F5F1)
+I (..\STM32F10x_FWLib\inc\dac.h)(0x5AD9517E)
+I (..\STM32F10x_FWLib\inc\key.h)(0x5AD7F507)
+I (..\STM32F10x_FWLib\inc\PVD.h)(0x5AD7F614)
+I (..\HARDWARE\SPI\spi.h)(0x5ADEDF7F)
+I (..\STM32F10x_FWLib\inc\sx1278.h)(0x5ADED827)
+I (..\STM32F10x_FWLib\inc\flash.h)(0x5AE07BF9)
 I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (E:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+F (..\SYSTEM\delay\delay.c)(0x55CC2E5D)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I C:\Users\fluency\Desktop\workspace\LoRa\STM_LoRa_Getway\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+I (..\SYSTEM\delay\delay.h)(0x5AD7F45F)
 I (..\SYSTEM\sys\sys.h)(0x5AD7F416)
 I (..\USER\stm32f10x.h)(0x5AD9D0A5)
 I (..\CORE\core_cm3.h)(0x4D523B58)
@@ -356,20 +304,81 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-I (..\USER\head.h)(0x5ADED316)
+F (..\SYSTEM\sys\sys.c)(0x55CC2E79)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I C:\Users\fluency\Desktop\workspace\LoRa\STM_LoRa_Getway\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x5AD7F416)
+I (..\USER\stm32f10x.h)(0x5AD9D0A5)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x5A91128E)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\SYSTEM\usart\usart.c)(0x5AE142D6)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I C:\Users\fluency\Desktop\workspace\LoRa\STM_LoRa_Getway\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
+I (..\SYSTEM\usart\usart.h)(0x5AE07BB6)
+I (..\SYSTEM\sys\sys.h)(0x5AD7F416)
+I (..\USER\stm32f10x.h)(0x5AD9D0A5)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x5A91128E)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\USER\head.h)(0x5AE07B88)
 I (..\SYSTEM\delay\delay.h)(0x5AD7F45F)
 I (..\HARDWARE\ADC\adc.h)(0x5AD7F5F1)
 I (..\STM32F10x_FWLib\inc\dac.h)(0x5AD9517E)
 I (..\STM32F10x_FWLib\inc\key.h)(0x5AD7F507)
 I (..\STM32F10x_FWLib\inc\PVD.h)(0x5AD7F614)
-I (..\STM32F10x_FWLib\inc\sx1278.h)(0x5ADED261)
-I (..\USER\../HARDWARE/SPI/spi.h)(0x5AD7F8CB)
-I (..\STM32F10x_FWLib\inc\flash.h)(0x5A9F538F)
+I (..\HARDWARE\SPI\spi.h)(0x5ADEDF7F)
+I (..\STM32F10x_FWLib\inc\sx1278.h)(0x5ADED827)
+I (..\STM32F10x_FWLib\inc\flash.h)(0x5AE07BF9)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
 I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
 I (E:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
-F (..\HARDWARE\sx1278\sx1278.h)(0x5ADED261)()
-F (..\HARDWARE\sx1278\sx1278.c)(0x5ADED316)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I E:\LoRa\sx1278\lora_jlnuaa\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\sx1278.o --omf_browse ..\obj\sx1278.crf --depend ..\obj\sx1278.d)
-I (..\USER\head.h)(0x5ADED316)
+F (..\HARDWARE\sx1278\sx1278.c)(0x5ADEE302)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I C:\Users\fluency\Desktop\workspace\LoRa\STM_LoRa_Getway\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\sx1278.o --omf_browse ..\obj\sx1278.crf --depend ..\obj\sx1278.d)
+I (..\USER\head.h)(0x5AE07B88)
 I (..\SYSTEM\delay\delay.h)(0x5AD7F45F)
 I (..\SYSTEM\sys\sys.h)(0x5AD7F416)
 I (..\USER\stm32f10x.h)(0x5AD9D0A5)
@@ -400,21 +409,81 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-I (..\SYSTEM\usart\usart.h)(0x5ADD4C73)
-I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (..\SYSTEM\usart\usart.h)(0x5AE07BB6)
 I (..\HARDWARE\ADC\adc.h)(0x5AD7F5F1)
 I (..\STM32F10x_FWLib\inc\dac.h)(0x5AD9517E)
 I (..\STM32F10x_FWLib\inc\key.h)(0x5AD7F507)
 I (..\STM32F10x_FWLib\inc\PVD.h)(0x5AD7F614)
-I (..\STM32F10x_FWLib\inc\sx1278.h)(0x5ADED261)
-I (..\USER\../HARDWARE/SPI/spi.h)(0x5AD7F8CB)
-I (..\STM32F10x_FWLib\inc\flash.h)(0x5A9F538F)
+I (..\HARDWARE\SPI\spi.h)(0x5ADEDF7F)
+I (..\STM32F10x_FWLib\inc\sx1278.h)(0x5ADED827)
+I (..\STM32F10x_FWLib\inc\flash.h)(0x5AE07BF9)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
 I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
 I (E:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
-I (..\HARDWARE\sx1278\sx1278.h)(0x5ADED261)
-F (..\CORE\core_cm3.c)(0x4C0C587E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I E:\LoRa\sx1278\lora_jlnuaa\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\core_cm3.o --omf_browse ..\obj\core_cm3.crf --depend ..\obj\core_cm3.d)
+I (..\HARDWARE\sx1278\sx1278.h)(0x5ADED827)
+F (..\CORE\startup_stm32f10x_hd.s)(0x4D783CDE)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Users\fluency\Desktop\workspace\LoRa\STM_LoRa_Getway\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 515" --pd "STM32F10X_HD SETA 1"--list .\startup_stm32f10x_hd.lst --xref -o ..\obj\startup_stm32f10x_hd.o --depend ..\obj\startup_stm32f10x_hd.d)
+F (.\system_stm32f10x.c)(0x5ADD4043)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I C:\Users\fluency\Desktop\workspace\LoRa\STM_LoRa_Getway\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\system_stm32f10x.o --omf_browse ..\obj\system_stm32f10x.crf --depend ..\obj\system_stm32f10x.d)
+I (stm32f10x.h)(0x5AD9D0A5)
+I (..\CORE\core_cm3.h)(0x4D523B58)
 I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
-F (.\stm32f10x_it.c)(0x5A9E4A68)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I E:\LoRa\sx1278\lora_jlnuaa\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\stm32f10x_it.o --omf_browse ..\obj\stm32f10x_it.crf --depend ..\obj\stm32f10x_it.d)
+I (system_stm32f10x.h)(0x4D783CAA)
+I (stm32f10x_conf.h)(0x55B0C93D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x5AD9D0A5)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x5A91128E)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\CORE\core_cm3.c)(0x4C0C587E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I C:\Users\fluency\Desktop\workspace\LoRa\STM_LoRa_Getway\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\core_cm3.o --omf_browse ..\obj\core_cm3.crf --depend ..\obj\core_cm3.d)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+F (..\STM32F10x_FWLib\src\misc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I C:\Users\fluency\Desktop\workspace\LoRa\STM_LoRa_Getway\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\misc.o --omf_browse ..\obj\misc.crf --depend ..\obj\misc.d)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x5AD9D0A5)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x5A91128E)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+F (.\stm32f10x_it.c)(0x5A9E4A68)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I C:\Users\fluency\Desktop\workspace\LoRa\STM_LoRa_Getway\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\stm32f10x_it.o --omf_browse ..\obj\stm32f10x_it.crf --depend ..\obj\stm32f10x_it.d)
 I (stm32f10x_it.h)(0x5A9E491A)
 I (stm32f10x.h)(0x5AD9D0A5)
 I (..\CORE\core_cm3.h)(0x4D523B58)
@@ -447,246 +516,12 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
 I (..\HARDWARE\LED\led.h)(0x5A7BEB68)
 I (..\SYSTEM\sys\sys.h)(0x5AD7F416)
-I (..\STM32F10x_FWLib\inc\flash.h)(0x5A9F538F)
+I (..\STM32F10x_FWLib\inc\flash.h)(0x5AE07BF9)
 I (..\SYSTEM\delay\delay.h)(0x5AD7F45F)
 I (..\sx12xxEiger\sx12xxEiger.h)(0x5A9E10A9)
 I (E:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
 I (..\sx12xxEiger\stm32f10x.h)(0x5A9CEFBE)
-F (.\system_stm32f10x.c)(0x5ADD4043)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I E:\LoRa\sx1278\lora_jlnuaa\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\system_stm32f10x.o --omf_browse ..\obj\system_stm32f10x.crf --depend ..\obj\system_stm32f10x.d)
-I (stm32f10x.h)(0x5AD9D0A5)
-I (..\CORE\core_cm3.h)(0x4D523B58)
-I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
-I (system_stm32f10x.h)(0x4D783CAA)
-I (stm32f10x_conf.h)(0x55B0C93D)
-I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
-I (..\USER\stm32f10x.h)(0x5AD9D0A5)
-I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
-I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x5A91128E)
-I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
-I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-F (..\STM32F10x_FWLib\src\stm32f10x_rcc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I E:\LoRa\sx1278\lora_jlnuaa\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\stm32f10x_rcc.o --omf_browse ..\obj\stm32f10x_rcc.crf --depend ..\obj\stm32f10x_rcc.d)
-I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\USER\stm32f10x.h)(0x5AD9D0A5)
-I (..\CORE\core_cm3.h)(0x4D523B58)
-I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
-I (..\USER\system_stm32f10x.h)(0x4D783CAA)
-I (..\USER\stm32f10x_conf.h)(0x55B0C93D)
-I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
-I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x5A91128E)
-I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
-I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-F (..\STM32F10x_FWLib\src\stm32f10x_usart.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I E:\LoRa\sx1278\lora_jlnuaa\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\stm32f10x_usart.o --omf_browse ..\obj\stm32f10x_usart.crf --depend ..\obj\stm32f10x_usart.d)
-I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
-I (..\USER\stm32f10x.h)(0x5AD9D0A5)
-I (..\CORE\core_cm3.h)(0x4D523B58)
-I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
-I (..\USER\system_stm32f10x.h)(0x4D783CAA)
-I (..\USER\stm32f10x_conf.h)(0x55B0C93D)
-I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
-I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x5A91128E)
-I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-F (..\CORE\startup_stm32f10x_hd.s)(0x4D783CDE)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I E:\LoRa\sx1278\lora_jlnuaa\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 515" --pd "STM32F10X_HD SETA 1"--list .\startup_stm32f10x_hd.lst --xref -o ..\obj\startup_stm32f10x_hd.o --depend ..\obj\startup_stm32f10x_hd.d)
-F (..\STM32F10x_FWLib\src\misc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I E:\LoRa\sx1278\lora_jlnuaa\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\misc.o --omf_browse ..\obj\misc.crf --depend ..\obj\misc.d)
-I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-I (..\USER\stm32f10x.h)(0x5AD9D0A5)
-I (..\CORE\core_cm3.h)(0x4D523B58)
-I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
-I (..\USER\system_stm32f10x.h)(0x4D783CAA)
-I (..\USER\stm32f10x_conf.h)(0x55B0C93D)
-I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
-I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x5A91128E)
-I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
-I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
-F (..\STM32F10x_FWLib\src\stm32f10x_adc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I E:\LoRa\sx1278\lora_jlnuaa\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\stm32f10x_adc.o --omf_browse ..\obj\stm32f10x_adc.crf --depend ..\obj\stm32f10x_adc.d)
-I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
-I (..\USER\stm32f10x.h)(0x5AD9D0A5)
-I (..\CORE\core_cm3.h)(0x4D523B58)
-I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
-I (..\USER\system_stm32f10x.h)(0x4D783CAA)
-I (..\USER\stm32f10x_conf.h)(0x55B0C93D)
-I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
-I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x5A91128E)
-I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
-I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-F (..\STM32F10x_FWLib\src\stm32f10x_gpio.c)(0x4D79EEC6)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I E:\LoRa\sx1278\lora_jlnuaa\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\stm32f10x_gpio.o --omf_browse ..\obj\stm32f10x_gpio.crf --depend ..\obj\stm32f10x_gpio.d)
-I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
-I (..\USER\stm32f10x.h)(0x5AD9D0A5)
-I (..\CORE\core_cm3.h)(0x4D523B58)
-I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
-I (..\USER\system_stm32f10x.h)(0x4D783CAA)
-I (..\USER\stm32f10x_conf.h)(0x55B0C93D)
-I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x5A91128E)
-I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
-I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-F (..\STM32F10x_FWLib\src\stm32f10x_dac.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I E:\LoRa\sx1278\lora_jlnuaa\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\stm32f10x_dac.o --omf_browse ..\obj\stm32f10x_dac.crf --depend ..\obj\stm32f10x_dac.d)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
-I (..\USER\stm32f10x.h)(0x5AD9D0A5)
-I (..\CORE\core_cm3.h)(0x4D523B58)
-I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
-I (..\USER\system_stm32f10x.h)(0x4D783CAA)
-I (..\USER\stm32f10x_conf.h)(0x55B0C93D)
-I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
-I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x5A91128E)
-I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
-I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-F (..\STM32F10x_FWLib\src\stm32f10x_pwr.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I E:\LoRa\sx1278\lora_jlnuaa\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\stm32f10x_pwr.o --omf_browse ..\obj\stm32f10x_pwr.crf --depend ..\obj\stm32f10x_pwr.d)
-I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\USER\stm32f10x.h)(0x5AD9D0A5)
-I (..\CORE\core_cm3.h)(0x4D523B58)
-I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
-I (..\USER\system_stm32f10x.h)(0x4D783CAA)
-I (..\USER\stm32f10x_conf.h)(0x55B0C93D)
-I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
-I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x5A91128E)
-I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
-I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-F (..\STM32F10x_FWLib\src\stm32f10x_exti.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I E:\LoRa\sx1278\lora_jlnuaa\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\stm32f10x_exti.o --omf_browse ..\obj\stm32f10x_exti.crf --depend ..\obj\stm32f10x_exti.d)
+F (..\STM32F10x_FWLib\src\stm32f10x_exti.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I C:\Users\fluency\Desktop\workspace\LoRa\STM_LoRa_Getway\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\stm32f10x_exti.o --omf_browse ..\obj\stm32f10x_exti.crf --depend ..\obj\stm32f10x_exti.d)
 I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
 I (..\USER\stm32f10x.h)(0x5AD9D0A5)
 I (..\CORE\core_cm3.h)(0x4D523B58)
@@ -715,7 +550,181 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-F (..\STM32F10x_FWLib\src\stm32f10x_flash.c)(0x5A81890F)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I E:\LoRa\sx1278\lora_jlnuaa\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\stm32f10x_flash.o --omf_browse ..\obj\stm32f10x_flash.crf --depend ..\obj\stm32f10x_flash.d)
+F (..\STM32F10x_FWLib\src\stm32f10x_rcc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I C:\Users\fluency\Desktop\workspace\LoRa\STM_LoRa_Getway\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\stm32f10x_rcc.o --omf_browse ..\obj\stm32f10x_rcc.crf --depend ..\obj\stm32f10x_rcc.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x5AD9D0A5)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x5A91128E)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_usart.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I C:\Users\fluency\Desktop\workspace\LoRa\STM_LoRa_Getway\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\stm32f10x_usart.o --omf_browse ..\obj\stm32f10x_usart.crf --depend ..\obj\stm32f10x_usart.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\USER\stm32f10x.h)(0x5AD9D0A5)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x5A91128E)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_adc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I C:\Users\fluency\Desktop\workspace\LoRa\STM_LoRa_Getway\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\stm32f10x_adc.o --omf_browse ..\obj\stm32f10x_adc.crf --depend ..\obj\stm32f10x_adc.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x5AD9D0A5)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x5A91128E)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_gpio.c)(0x4D79EEC6)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I C:\Users\fluency\Desktop\workspace\LoRa\STM_LoRa_Getway\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\stm32f10x_gpio.o --omf_browse ..\obj\stm32f10x_gpio.crf --depend ..\obj\stm32f10x_gpio.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\USER\stm32f10x.h)(0x5AD9D0A5)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x5A91128E)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_dac.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I C:\Users\fluency\Desktop\workspace\LoRa\STM_LoRa_Getway\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\stm32f10x_dac.o --omf_browse ..\obj\stm32f10x_dac.crf --depend ..\obj\stm32f10x_dac.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x5AD9D0A5)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x5A91128E)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_pwr.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I C:\Users\fluency\Desktop\workspace\LoRa\STM_LoRa_Getway\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\stm32f10x_pwr.o --omf_browse ..\obj\stm32f10x_pwr.crf --depend ..\obj\stm32f10x_pwr.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x5AD9D0A5)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93D)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x5A91128E)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_flash.c)(0x5A81890F)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I C:\Users\fluency\Desktop\workspace\LoRa\STM_LoRa_Getway\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\stm32f10x_flash.o --omf_browse ..\obj\stm32f10x_flash.crf --depend ..\obj\stm32f10x_flash.d)
 I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
 I (..\USER\stm32f10x.h)(0x5AD9D0A5)
 I (..\CORE\core_cm3.h)(0x4D523B58)
@@ -744,7 +753,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-F (..\STM32F10x_FWLib\src\stm32f10x_spi.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I E:\LoRa\sx1278\lora_jlnuaa\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\stm32f10x_spi.o --omf_browse ..\obj\stm32f10x_spi.crf --depend ..\obj\stm32f10x_spi.d)
+F (..\STM32F10x_FWLib\src\stm32f10x_spi.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I C:\Users\fluency\Desktop\workspace\LoRa\STM_LoRa_Getway\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\stm32f10x_spi.o --omf_browse ..\obj\stm32f10x_spi.crf --depend ..\obj\stm32f10x_spi.d)
 I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x5A91128E)
 I (..\USER\stm32f10x.h)(0x5AD9D0A5)
 I (..\CORE\core_cm3.h)(0x4D523B58)
@@ -773,7 +782,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-F (..\radio\radio.c)(0x5A9D408E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I E:\LoRa\sx1278\lora_jlnuaa\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\radio.o --omf_browse ..\obj\radio.crf --depend ..\obj\radio.d)
+F (..\radio\radio.c)(0x5A9D408E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I C:\Users\fluency\Desktop\workspace\LoRa\STM_LoRa_Getway\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\radio.o --omf_browse ..\obj\radio.crf --depend ..\obj\radio.d)
 I (..\radio\radio.h)(0x5A9CC2DF)
 I (..\USER\stm32f10x.h)(0x5AD9D0A5)
 I (..\CORE\core_cm3.h)(0x4D523B58)
@@ -805,7 +814,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
 I (..\radio\sx1276.h)(0x5A9F538F)
 I (E:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
-F (..\radio\sx1276.c)(0x5A9DEE18)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I E:\LoRa\sx1278\lora_jlnuaa\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\sx1276.o --omf_browse ..\obj\sx1276.crf --depend ..\obj\sx1276.d)
+F (..\radio\sx1276.c)(0x5A9DEE18)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I C:\Users\fluency\Desktop\workspace\LoRa\STM_LoRa_Getway\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\sx1276.o --omf_browse ..\obj\sx1276.crf --depend ..\obj\sx1276.d)
 I (..\radio\radio.h)(0x5A9CC2DF)
 I (..\USER\stm32f10x.h)(0x5AD9D0A5)
 I (..\CORE\core_cm3.h)(0x4D523B58)
@@ -841,9 +850,9 @@ I (..\radio\sx1276-Hal.h)(0x5A9F538F)
 I (..\radio\../sx12xxEiger/sx12xxEiger.h)(0x5A9E10A9)
 I (..\radio\../sx12xxEiger/stm32f10x.h)(0x5A9CEFBE)
 I (..\radio\sx1276-LoRa.h)(0x5AA291C5)
-F (..\radio\sx1276-LoRa.c)(0x5AA6848D)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I E:\LoRa\sx1278\lora_jlnuaa\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\sx1276-lora.o --omf_browse ..\obj\sx1276-lora.crf --depend ..\obj\sx1276-lora.d)
+F (..\radio\sx1276-LoRa.c)(0x5AA6848D)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I C:\Users\fluency\Desktop\workspace\LoRa\STM_LoRa_Getway\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\sx1276-lora.o --omf_browse ..\obj\sx1276-lora.crf --depend ..\obj\sx1276-lora.d)
 I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
-I (..\HARDWARE\SPI\spi.h)(0x5AD7F8CB)
+I (..\HARDWARE\SPI\spi.h)(0x5ADEDF7F)
 I (..\SYSTEM\sys\sys.h)(0x5AD7F416)
 I (..\USER\stm32f10x.h)(0x5AD9D0A5)
 I (..\CORE\core_cm3.h)(0x4D523B58)
@@ -881,7 +890,7 @@ I (..\radio\../sx12xxEiger/stm32f10x.h)(0x5A9CEFBE)
 I (..\radio\sx1276.h)(0x5A9F538F)
 I (..\radio\sx1276-LoRaMisc.h)(0x5A9F538F)
 I (..\radio\sx1276-LoRa.h)(0x5AA291C5)
-F (..\radio\sx1276-LoRaMisc.c)(0x5A9DFA19)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I E:\LoRa\sx1278\lora_jlnuaa\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\sx1276-loramisc.o --omf_browse ..\obj\sx1276-loramisc.crf --depend ..\obj\sx1276-loramisc.d)
+F (..\radio\sx1276-LoRaMisc.c)(0x5A9DFA19)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I C:\Users\fluency\Desktop\workspace\LoRa\STM_LoRa_Getway\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\sx1276-loramisc.o --omf_browse ..\obj\sx1276-loramisc.crf --depend ..\obj\sx1276-loramisc.d)
 I (..\radio\platform.h)(0x5A9F5478)
 I (..\sx12xxEiger\sx12xxEiger.h)(0x5A9E10A9)
 I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
@@ -911,9 +920,9 @@ I (..\radio\sx1276-Hal.h)(0x5A9F538F)
 I (..\radio\sx1276.h)(0x5A9F538F)
 I (..\radio\sx1276-LoRa.h)(0x5AA291C5)
 I (..\radio\sx1276-LoRaMisc.h)(0x5A9F538F)
-F (..\sx12xxEiger\sx12xxEiger.c)(0x5A9F538F)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I E:\LoRa\sx1278\lora_jlnuaa\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\sx12xxeiger.o --omf_browse ..\obj\sx12xxeiger.crf --depend ..\obj\sx12xxeiger.d)
+F (..\sx12xxEiger\sx12xxEiger.c)(0x5A9F538F)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I C:\Users\fluency\Desktop\workspace\LoRa\STM_LoRa_Getway\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\sx12xxeiger.o --omf_browse ..\obj\sx12xxeiger.crf --depend ..\obj\sx12xxeiger.d)
 I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
-I (..\HARDWARE\SPI\spi.h)(0x5AD7F8CB)
+I (..\HARDWARE\SPI\spi.h)(0x5ADEDF7F)
 I (..\SYSTEM\sys\sys.h)(0x5AD7F416)
 I (..\USER\stm32f10x.h)(0x5AD9D0A5)
 I (..\CORE\core_cm3.h)(0x4D523B58)
@@ -946,10 +955,10 @@ I (..\sx12xxEiger\i2c.h)(0x53CF64CB)
 I (..\sx12xxEiger\sx12xxEiger.h)(0x5A9E10A9)
 I (E:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
 I (..\sx12xxEiger\stm32f10x.h)(0x5A9CEFBE)
-F (..\sx12xxEiger\sx1276-Hal.c)(0x5AA1F706)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I E:\LoRa\sx1278\lora_jlnuaa\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\sx1276-hal.o --omf_browse ..\obj\sx1276-hal.crf --depend ..\obj\sx1276-hal.d)
+F (..\sx12xxEiger\sx1276-Hal.c)(0x5AA1F706)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\radio -I..\sx12xxEiger -I..\HARDWARE\SPI-I C:\Users\fluency\Desktop\workspace\LoRa\STM_LoRa_Getway\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_SX1276_RADIO-o ..\obj\sx1276-hal.o --omf_browse ..\obj\sx1276-hal.crf --depend ..\obj\sx1276-hal.d)
 I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
 I (E:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
-I (..\HARDWARE\SPI\spi.h)(0x5AD7F8CB)
+I (..\HARDWARE\SPI\spi.h)(0x5ADEDF7F)
 I (..\SYSTEM\sys\sys.h)(0x5AD7F416)
 I (..\USER\stm32f10x.h)(0x5AD9D0A5)
 I (..\CORE\core_cm3.h)(0x4D523B58)

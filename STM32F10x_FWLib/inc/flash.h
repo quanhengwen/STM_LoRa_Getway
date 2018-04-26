@@ -1,16 +1,14 @@
 #ifndef __FLASH_H
 #define __FLASH_H	
-#define STM_SECTOR_SIZE 2048
-#define START_ADDR 0x0807F800
 #include "sys.h"
 
-
+#define STM_SECTOR_SIZE 2048
+#define START_ADDR 0x0807F800
 
 #define W25Q80 	0XEF13 	
 #define W25Q16 	0XEF14
 #define W25Q32 	0XEF15
 #define W25Q64 	0XEF16
- 
 
 extern u16 SPI_FLASH_TYPE;		//定义我们使用的flash芯片型号		
 
@@ -54,5 +52,6 @@ void SPI_Flash_WAKEUP(void);			  //唤醒
 
 void FLASH_WriteByte(u32 addr,u16 flashdata1);
 void FLASH_RriteByte(u32 addr,u16 flashdata1);
-int ReadFlashNBtye(u32 ReadAddress);
+u16 ReadFlashNBtye(u32 ReadAddress);
+uint32_t FlashRead(uint32_t addr, uint8_t *buffer, uint32_t length);
 #endif

@@ -1,6 +1,5 @@
 ..\obj\usart.o: ..\SYSTEM\usart\usart.c
 ..\obj\usart.o: ..\SYSTEM\usart\usart.h
-..\obj\usart.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\usart.o: ..\SYSTEM\sys\sys.h
 ..\obj\usart.o: ..\USER\stm32f10x.h
 ..\obj\usart.o: ..\CORE\core_cm3.h
@@ -37,8 +36,9 @@
 ..\obj\usart.o: ..\STM32F10x_FWLib\inc\dac.h
 ..\obj\usart.o: ..\STM32F10x_FWLib\inc\key.h
 ..\obj\usart.o: ..\STM32F10x_FWLib\inc\PVD.h
+..\obj\usart.o: ..\HARDWARE\SPI\spi.h
 ..\obj\usart.o: ..\STM32F10x_FWLib\inc\sx1278.h
-..\obj\usart.o: ..\USER\../HARDWARE/SPI/spi.h
 ..\obj\usart.o: ..\STM32F10x_FWLib\inc\flash.h
+..\obj\usart.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\usart.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 ..\obj\usart.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h

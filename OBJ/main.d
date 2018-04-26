@@ -32,13 +32,13 @@
 ..\obj\main.o: ..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h
 ..\obj\main.o: ..\STM32F10x_FWLib\inc\misc.h
 ..\obj\main.o: ..\SYSTEM\usart\usart.h
-..\obj\main.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\main.o: ..\HARDWARE\ADC\adc.h
 ..\obj\main.o: ..\STM32F10x_FWLib\inc\dac.h
 ..\obj\main.o: ..\STM32F10x_FWLib\inc\key.h
 ..\obj\main.o: ..\STM32F10x_FWLib\inc\PVD.h
+..\obj\main.o: ..\HARDWARE\SPI\spi.h
 ..\obj\main.o: ..\STM32F10x_FWLib\inc\sx1278.h
-..\obj\main.o: ../HARDWARE/SPI/spi.h
 ..\obj\main.o: ..\STM32F10x_FWLib\inc\flash.h
+..\obj\main.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\main.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 ..\obj\main.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h

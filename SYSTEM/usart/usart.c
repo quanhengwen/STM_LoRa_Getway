@@ -1,9 +1,11 @@
+/********************************************************************************
+//File Name:uart.c
+//Author   :fluency
+//Mail     :1005068694@qq.com
+//Function :UART2 初始化配置 中断函数 接收HC8000的时间数据和DAC输出数据
+********************************************************************************/
 #include "usart.h"	
 #include "head.h"
-
-//********************************************************************************
-//支持适应不同频率下的串口波特率设置.
-//////////////////////////////////////////////////////////////////////////////////
 
 void USART2_Initialise(u32 bound)
 {
@@ -55,9 +57,9 @@ void USART2_Initialise(u32 bound)
 //参数说明：无
 //函数返回：无
 //============================================================================= 
-extern float dac; 
-extern uint32_t addr;
-extern uint16_t date;
+float dac; 
+uint32_t addr;
+uint16_t date;
 uint16_t USART2_RX_BUF[USART_RX_LEN];     
 uint16_t USART2_TX_BUF[USART_TX_LEN];
 int count;
@@ -80,7 +82,7 @@ void USART2_IRQHandler(void)
 			}	
 			if((USART2_RX_BUF[0] & 0xff) == 0x01)
 			{
-				dac = (uint16_t)(USART2_RX_BUF[1] & 0xff) / 10;
+				dac = ((USART2_RX_BUF[1] & 0xff) / 256.0) * 3.3;
 				//SET DAC OUT
 				DAC_OutVoltage(dac);
 			}	
