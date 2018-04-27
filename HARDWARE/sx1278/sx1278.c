@@ -1,7 +1,5 @@
 /********************************************************************************
 //File Name:sx1278.c
-//Author   :fluency
-//Mail     :1005068694@qq.com
 //Function :通过模拟SPI对sx1278芯片配置，实现Master or Slave Mode
 ********************************************************************************/
 #include "head.h"
@@ -30,6 +28,7 @@ static uint8_t RFBuffer[11];
 
 uint8_t SX1276Regs_test[0x70]={0};
 uint8_t	DIO0=0;
+static uint8_t count;
 
 /*
  * Manages the master operation
@@ -41,9 +40,10 @@ void OnMaster( void )
 	RFBuffer[1]='i';
 	RFBuffer[2]='n';
 	RFBuffer[3]='g';
-	for(i=4;i<11;i++)
+	RFBuffer[4] = count ++;
+	for(i=5;i<11;i++)
 	{
-		RFBuffer[i]=i-4;
+		RFBuffer[i]=i-5;
 	}
 	// lora-init
 	SX1276Write(0x01,0x00);			// sleep
@@ -92,6 +92,7 @@ void OnMaster( void )
 			SX1276Write(0x24,0x00);			//RegHopPeriod
 			SX1276Write(0x0D,0x80);			//FifoAddrPtr,Set FifoPtrAddr to FifoTxPtrBase.
 			SX1276WriteBuffer(00,RFBuffer,11);
+			RFBuffer[4] = count++;
 			SX1276Write(0x40,0x00);			//
 			SX1276Write(0x41,0x00);			//
 			SX1276Write(0x01,0x83);
@@ -193,7 +194,10 @@ void OnSlave( void )
 			test=0;
 			SX1276Read(0x13,&test);
 			SX1276ReadBuffer(0x00,RFBuffer,test);
-			
+			for(i = 0; i < 11; i++)
+			{
+				USART_SendData(USART2, RFBuffer[i]);
+			}		
 			SX1276Write(0x01,0x81);
 			SX1276Write(0x11,0x9F);			//IRQFlagMask
 			SX1276Write(0x24,0xFF);			//RegHopPeriod

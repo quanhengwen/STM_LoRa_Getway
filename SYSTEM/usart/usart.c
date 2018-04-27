@@ -1,7 +1,5 @@
 /********************************************************************************
 //File Name:uart.c
-//Author   :fluency
-//Mail     :1005068694@qq.com
 //Function :UART2 初始化配置 中断函数 接收HC8000的时间数据和DAC输出数据
 ********************************************************************************/
 #include "usart.h"	
@@ -57,16 +55,19 @@ void USART2_Initialise(u32 bound)
 //参数说明：无
 //函数返回：无
 //============================================================================= 
-float dac; 
-uint32_t addr;
-uint16_t date;
-uint16_t USART2_RX_BUF[USART_RX_LEN];     
-uint16_t USART2_TX_BUF[USART_TX_LEN];
-int count;
+
 
 void USART2_IRQHandler(void)    
 {  
-
+	float dac; 
+	uint32_t addr;
+	uint16_t date;
+	uint16_t USART2_RX_BUF[USART_RX_LEN];     
+	uint16_t USART2_TX_BUF[USART_TX_LEN];
+	int count;
+	uint8_t buffer[2];
+	uint16_t flashdata1;
+	
 	if(USART_GetFlagStatus(USART2, USART_FLAG_RXNE) == SET)  
 	{       
 		//USART_SendData(USART2, USART_ReceiveData(USART2));
@@ -78,7 +79,11 @@ void USART2_IRQHandler(void)
 			{
 				printf("t");
 				//SET DATE TO FLASH
-				FLASH_WriteByte(addr, date);
+				addr = 0x00;
+				flashdata1 = 0x1111;
+	
+				FLASH_WriteByte( addr, flashdata1);
+				FlashRead(addr, buffer, 2);
 			}	
 			if((USART2_RX_BUF[0] & 0xff) == 0x01)
 			{
