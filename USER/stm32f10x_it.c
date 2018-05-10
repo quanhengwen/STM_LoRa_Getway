@@ -26,7 +26,7 @@
 #include "led.h"
 #include "flash.h"
 #include "delay.h"
-#include "sx12xxEiger.h"
+//#include "sx12xxEiger.h"
 
  
 void NMI_Handler(void)
@@ -78,10 +78,10 @@ void PendSV_Handler(void)
 {
 }
  
-void SysTick_Handler(void)
-{
-	TickCounter++;
-}
+//void SysTick_Handler(void)
+//{
+//	TickCounter++;
+//}
 
 //		void  PVD_IRQHandler(void)  
 //    { 

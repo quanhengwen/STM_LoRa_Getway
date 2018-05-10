@@ -554,46 +554,6 @@
             </File>
           </Files>
         </Group>
-        <Group>
-          <GroupName>radio</GroupName>
-          <Files>
-            <File>
-              <FileName>radio.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\radio\radio.c</FilePath>
-            </File>
-            <File>
-              <FileName>sx1276.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\radio\sx1276.c</FilePath>
-            </File>
-            <File>
-              <FileName>sx1276-LoRa.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\radio\sx1276-LoRa.c</FilePath>
-            </File>
-            <File>
-              <FileName>sx1276-LoRaMisc.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\radio\sx1276-LoRaMisc.c</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>sx1278</GroupName>
-          <Files>
-            <File>
-              <FileName>sx12xxEiger.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\sx12xxEiger\sx12xxEiger.c</FilePath>
-            </File>
-            <File>
-              <FileName>sx1276-Hal.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\sx12xxEiger\sx1276-Hal.c</FilePath>
-            </File>
-          </Files>
-        </Group>
       </Groups>
     </Target>
   </Targets>

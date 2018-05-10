@@ -1,9 +1,5 @@
-#include "stm32f10x_exti.h"
-#include "stm32f10x_pwr.h"
-#include "stm32f10x_rcc.h"
-#include "led.h"
-
-
+#include "head.h"
+#include "PVD.h"
 
 void PVD_Init(void)
 {
@@ -31,12 +27,14 @@ void PVD_Init(void)
 	//		EXTI_InitStructure.EXTI_Trigger= EXTI_Trigger_Rising; 
 		
 }		
-		
+extern uint32_t date;		
 void  PVD_IRQHandler(void)  
 { 
+
 	if(PWR_GetFlagStatus(PWR_FLAG_PVDO))//标志位表明VDD高于还是低于阀值
 	{
-		LED0 = 0;
+		//SET DATE TO FLASH
+		FLASH_WriteByte(USER_ADDR , date);
 	}
 	EXTI_ClearITPendingBit(EXTI_Line16); 
 }

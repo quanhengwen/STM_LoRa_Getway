@@ -3,10 +3,11 @@
 //Function :flash读写函数
 ********************************************************************************/
 #include "head.h"
+#include "flash.h"
 
 u16 SPI_FLASH_TYPE=W25Q64;//默认就是25Q64
 
-void FLASH_WriteByte(u32 addr,u16 flashdata1)
+void FLASH_WriteByte(u32 addr,uint32_t Data)
 {
 	
 	FLASH_Status FLASHstatus = FLASH_COMPLETE;
@@ -15,7 +16,8 @@ void FLASH_WriteByte(u32 addr,u16 flashdata1)
 	FLASHstatus=FLASH_ErasePage(START_ADDR);//擦除指定地址页
 	if(FLASHstatus == FLASH_COMPLETE)
 	{
-		FLASHstatus=FLASH_ProgramHalfWord(START_ADDR+addr*2, flashdata1);// 从指定页的addr地址开始写
+		FLASHstatus = FLASH_ProgramWord(START_ADDR+addr*2, Data);
+		//FLASHstatus = FLASH_ProgramHalfWord(START_ADDR+addr*2, flashdata1);// 从指定页的addr地址开始写
 	}
 //	FLASH_ErasePage(START_ADDR);//擦除指定地址页
 //	FLASH_ProgramHalfWord(START_ADDR+addr*2, flashdata1);// 从指定页的addr地址开始写

@@ -55,18 +55,16 @@ void USART2_Initialise(u32 bound)
 //参数说明：无
 //函数返回：无
 //============================================================================= 
-
-
+uint16_t USART2_RX_BUF[USART_RX_LEN];     
+int count;
+uint32_t date;
 void USART2_IRQHandler(void)    
 {  
-	float dac; 
-	uint32_t addr;
-	uint16_t date;
-	uint16_t USART2_RX_BUF[USART_RX_LEN];     
-	uint16_t USART2_TX_BUF[USART_TX_LEN];
-	int count;
-	uint8_t buffer[2];
 	uint16_t flashdata1;
+	uint16_t flashdata2;
+	uint16_t flashdata3;
+	uint16_t flashdata4;
+	float dac;
 	
 	if(USART_GetFlagStatus(USART2, USART_FLAG_RXNE) == SET)  
 	{       
@@ -75,15 +73,15 @@ void USART2_IRQHandler(void)
 		if(count == USART_RX_LEN)
 		{
 			count = 0;
-			if(((USART2_RX_BUF[0] >> 8) & 0xff) == 't')
+			if((USART2_RX_BUF[0] & 0xff) == 0x00)
 			{
-				printf("t");
 				//SET DATE TO FLASH
-				addr = 0x00;
-				flashdata1 = 0x1111;
-	
-				FLASH_WriteByte( addr, flashdata1);
-				FlashRead(addr, buffer, 2);
+				flashdata1 = USART2_RX_BUF[1]; //78
+				flashdata2 = USART2_RX_BUF[2]; //1A
+				flashdata3 = USART2_RX_BUF[3]; //C8
+				flashdata4 = USART2_RX_BUF[4]; //3A
+				date = ((((uint32_t)flashdata1) << 24) & 0xff000000) + ((((uint32_t)flashdata2) << 16) & 0xff0000) + ((((uint32_t)flashdata3) << 8) & 0xff00) + (((uint32_t)flashdata4) & 0xff);
+				//FLASH_WriteByte(USER_ADDR , date);
 			}	
 			if((USART2_RX_BUF[0] & 0xff) == 0x01)
 			{

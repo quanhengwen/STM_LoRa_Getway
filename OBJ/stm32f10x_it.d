@@ -33,6 +33,3 @@
 ..\obj\stm32f10x_it.o: ..\SYSTEM\sys\sys.h
 ..\obj\stm32f10x_it.o: ..\STM32F10x_FWLib\inc\flash.h
 ..\obj\stm32f10x_it.o: ..\SYSTEM\delay\delay.h
-..\obj\stm32f10x_it.o: ..\sx12xxEiger\sx12xxEiger.h
-..\obj\stm32f10x_it.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
-..\obj\stm32f10x_it.o: ..\sx12xxEiger\stm32f10x.h

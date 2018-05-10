@@ -4,7 +4,7 @@
 
 #define STM_SECTOR_SIZE 2048
 #define START_ADDR 0x0807F800
-
+#define USER_ADDR 0x00
 #define W25Q80 	0XEF13 	
 #define W25Q16 	0XEF14
 #define W25Q32 	0XEF15
@@ -50,7 +50,7 @@ void SPI_Flash_Wait_Busy(void);           //等待空闲
 void SPI_Flash_PowerDown(void);           //进入掉电模式
 void SPI_Flash_WAKEUP(void);			  //唤醒
 
-void FLASH_WriteByte(u32 addr,u16 flashdata1);
+void FLASH_WriteByte(u32 addr,uint32_t Data);
 void FLASH_RriteByte(u32 addr,u16 flashdata1);
 u16 ReadFlashNBtye(u32 ReadAddress);
 uint32_t FlashRead(uint32_t addr, uint8_t *buffer, uint32_t length);

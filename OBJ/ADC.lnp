@@ -25,12 +25,6 @@
 "..\obj\stm32f10x_pwr.o"
 "..\obj\stm32f10x_flash.o"
 "..\obj\stm32f10x_spi.o"
-"..\obj\radio.o"
-"..\obj\sx1276.o"
-"..\obj\sx1276-lora.o"
-"..\obj\sx1276-loramisc.o"
-"..\obj\sx12xxeiger.o"
-"..\obj\sx1276-hal.o"
 --library_type=microlib --strict --scatter "..\OBJ\ADC.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

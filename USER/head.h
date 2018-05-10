@@ -15,7 +15,10 @@
 #include "stm32f10x_gpio.h"
 #include "stm32f10x_flash.h"
 #include "stm32f10x_usart.h"
-#include "../HARDWARE/SPI/spi.h"
+#include "stm32f10x_exti.h"
+#include "stm32f10x_pwr.h"
+#include "stm32f10x_rcc.h"
+//#include "../HARDWARE/SPI/spi.h"
 #include <stdio.h>
 #include <string.h>
 #include <stdbool.h>

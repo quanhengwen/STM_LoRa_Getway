@@ -38,6 +38,7 @@
 ..\obj\sx1278.o: ..\STM32F10x_FWLib\inc\PVD.h
 ..\obj\sx1278.o: ..\HARDWARE\SPI\spi.h
 ..\obj\sx1278.o: ..\STM32F10x_FWLib\inc\sx1278.h
+..\obj\sx1278.o: ..\USER\head.h
 ..\obj\sx1278.o: ..\STM32F10x_FWLib\inc\flash.h
 ..\obj\sx1278.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\sx1278.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
